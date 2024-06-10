@@ -1,0 +1,26 @@
+.hello{
+    color: green;
+}
+form{
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+}
+
+form button{margin: 10px;
+    height: 40px;
+    border-radius: 25px;
+}
+form .username{
+    font-size: 25px;
+}
+form button{
+    background-color: rgb(149, 80, 80);
+    color: white    ;
+    transition: 1s;
+}
+
+form button:hover{
+    background-color: transparent;
+    color: rgb(0, 0, 0)    ;
+}
